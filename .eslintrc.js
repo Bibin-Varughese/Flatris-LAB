@@ -7,9 +7,7 @@ module.exports = {
     'plugin:flowtype/recommended'
   ],
   plugins: ['react', 'flowtype'],
-  env: {
-    es6: true,
-    'shared-node-browser': true
+  
   },
   settings: {
     'import/resolver': {
